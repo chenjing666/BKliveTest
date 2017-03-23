@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <color name="white">#ffffff</color>
+    <color name="cF0f7ff">#f0f7ff</color>
+    <color name="c999999">#999999</color>
+    <color name="cF8450e">#f8450e</color>
+    <color name="cCbcbcb">#cbcbcb</color>
+    <color name="cEd4242">#ed4242</color>
+    <color name="c333333">#333333</color>
+    <color name="cF2f2f2">#f2f2f2</color>
+    <color name="cFffffd">#fffffd</color>
+    <color name="c5293e5">#5293e5</color>
+    <color name="c666666">#666666</color>
+    <color name="cEef6ff">#eef6ff</color>
+    <color name="cFa9931">#fa9931</color>
+    <color name="cFf7e00">#ff7e00</color>
+    <color name="c006cff">#006cff</color>
+    <color name="c2381f7">#2381f7</color>
+    <color name="cFf7747">#ff7747</color>
+    <color name="cFf0000">#ff0000</color>
+    <color name="cEe2828">#ee2828</color>
+    <color name="cFe4628">#fe4628</color>
+    <color name="cEf3030">#ef3030</color>
+    <color name="c0042ff">#0042ff</color>
+    <color name="cFf5b01">#ff5b01</color>
+    <color name="cFa3c3c">#fa3c3c</color>
+    <color name="ceef8ff">#eef8ff</color>
+    <color name="cC7e8ff">#c7e8ff</color>
+    <color name="c2abbff">#2abbff</color>
+    <color name="cFfcfc0">#ffcfc0</color>
+    <color name="cFf7a21">#ff7a21</color>
+    <color name="cFfede1">#Ffede1</color>
+    <color name="cFf5b22">#ff5b22</color>
+    <color name="cF32626">#f32626</color>
+    <color name="c14263e">#14263e</color>
+    <color name="c2763ae">#2763ae</color>
+    <color name="cff3c00">#Ff3c00</color>
+    <color name="cFb934e">#fb934e</color>
+    <color name="cff3600">#ff3600</color>
+    <color name="cFf3d00">#ff3d00</color>
+    <color name="cFbc235">#fbc235</color>
+    <color name="c0c6096">#0c6096</color>
+    <color name="cEd5409">#ed5409</color>
+    <color name="cDc2626">#dc2626</color>
+    <color name="c86e2d7">#86e2d7</color>
+    <color name="cfffaee">#fffaee</color>
+    <color name="c68eeff">#68eeff</color>
+    <color name="cFe761c">#fe761c</color>
+    <color name="c19cac8">#19cac8</color>
+    <color name="c102f6e">#102f6e</color>
+    <color name="c53cee8">#53cee8</color>
+</resources>

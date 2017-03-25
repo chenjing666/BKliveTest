@@ -1,7 +1,5 @@
 package com.biaoke.bklive.http;
 
-import android.os.Handler;
-
 import com.biaoke.bklive.consts.ErrorInfo;
 import com.biaoke.bklive.consts.Message;
 import com.orhanobut.logger.Logger;
@@ -19,14 +17,11 @@ import okhttp3.Call;
  */
 
 public abstract class MyCallBack extends StringCallback {
-    Handler mHandler;
     ErrorInfo errorInfo;
 
     @Override
     public void onError(Call call, Exception e, int id) {
-        if (errorInfo == null) {
-            errorInfo = new ErrorInfo();
-        }
+        errorInfo = new ErrorInfo();
         errorInfo.setmMsg(Message.HTTP_CONNECTION_TIMEOUT);
         OnFailure(errorInfo);
     }
@@ -46,22 +41,24 @@ public abstract class MyCallBack extends StringCallback {
     }
 
     private void setHandler(String msg) throws JSONException {
-        if (mHandler == null) {
-            mHandler = new Handler();
-        }
         if (errorInfo == null) {
             errorInfo = new ErrorInfo();
         }
         JSONObject object = new JSONObject(msg);
-        mHandler.post(new Runnable() {
-            @Override
-            public void run() {
+        Logger.d(object);
+        String result = object.getString("Result");
+//        String msssage = object.getString("Msg");
+        if (result.equals("1")) {
+            OnSuccess(object.toString());
+        } else if (result.equals("0")) {
+            errorInfo.setmMsg(object.getString("Msg"));
+            OnFailure(errorInfo);
+        }
 
-            }
-        });
     }
 
     public abstract void OnSuccess(String json);
 
     public abstract void OnFailure(ErrorInfo info);
+
 }

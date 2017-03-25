@@ -29,6 +29,7 @@ dependencies {
     //日志配置
     //网络工具
     //解析JSON工具
+    //图片缓存框架
     compile 'com.android.support:appcompat-v7:25.3.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.jakewharton:butterknife:8.5.1'
@@ -36,9 +37,8 @@ dependencies {
     compile 'com.orhanobut:logger:1.15'
     compile 'com.zhy:okhttputils:2.6.2'
     compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'de.greenrobot:eventbus:3.0.0-beta1'
     testCompile 'junit:junit:4.12'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
-    compile 'com.github.bumptech.glide:glide:3.7.0'
-    //图片缓存框架
-    compile 'de.greenrobot:eventbus:3.0.0-beta1'
 }

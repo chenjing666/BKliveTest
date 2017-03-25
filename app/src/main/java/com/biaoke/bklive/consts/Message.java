@@ -19,4 +19,5 @@ public class Message {
     public static final String HTTP_ERROR_JSON="返回数据解析JSON失败！！！";
     public static final String REGISTER_MOBILE_NULL = "请输入手机号";
     public static final String REGISTER_MOBILE_ERROR = "请输入正确的手机号";
+    public static final String HTTP_ERROR_CREATE_JSON = "创建请求JSON失败！！！";
 }

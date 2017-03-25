@@ -15,6 +15,7 @@ public class AppConsts {
 
     public static final String POWER_BAR_WHITE = "#FFFFFF";//白色背景
     public static final String POWER_BAR_BLUE = "#5293e4";//蓝色背景
+    public static final String POWER_BAR_BACKGROUND = "#9900ff";//背景
     /**
      * 可变常量
      */
@@ -25,7 +26,7 @@ public class AppConsts {
     public  static String  mVersionName;//当前APP的版本名字
     public  static String  mImei;//Imei
     public  static String  mMac;//Mac
-
+    public  static boolean  mWhetherLogin=false;//用户是否登陆默认为false
 
 
 

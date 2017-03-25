@@ -19,4 +19,5 @@ public interface LoginView {
     void startForgotPassword();
 
     void close();
+    void IntentTo();
 }
